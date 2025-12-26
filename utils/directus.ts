@@ -1,6 +1,6 @@
 import { createDirectus, rest } from '@directus/sdk';
 
-// Remplacez par votre IP ou URL
+
 const DIRECTUS_URL = 'http://46.224.187.154:8055'; 
 
 export const directus = createDirectus(DIRECTUS_URL).with(rest());
